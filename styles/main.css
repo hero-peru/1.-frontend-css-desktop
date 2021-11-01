@@ -1,0 +1,250 @@
+/*----- SELECTORES GENERALES -----*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+footer{
+    margin-top: 150px;
+}
+
+/*----- SELECTORES PERSONALIZADOS - HEADER -----*/
+
+.header-container{
+    padding: 20px;
+    background-color:rgb(82, 207, 82);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.header-nav ul{
+    padding: 10px;
+    list-style: none; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.header-nav li{
+    padding: 10px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*----- SELECTORES PERSONALIZADOS - MAIN - HOME -----*/
+
+.section-container-home{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-container-home header{
+    color: #0000ff;
+    padding: 10px;
+}
+
+.article-para-home{    
+    padding: 10px;
+}
+
+.article-image-home{    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.article-image-home img{
+    height: 250px;
+    width: 500px;
+}
+
+/*----- SELECTORES PERSONALIZADOS - MAIN - SERVICE -----*/
+
+.section-container-service{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-container-service header{
+    color: #ff00ff;
+    padding: 10px;
+}
+
+.article-para-service{    
+    padding: 10px;
+}
+
+.article-image-service{    
+    padding: 20px;
+}
+
+.article-image-service img{
+    height: 250px;
+    width: 500px;
+}
+
+.article-link-service-link{
+    margin-left: 50px;    
+    list-style: disc;
+}
+
+.article-link-service-link li{
+    margin-top: 20px;
+}
+
+#alsl-1{
+    color: red;
+    font-weight: bold;  
+}
+
+#alsl-2{
+    color: blue;
+    font-weight: bold;   
+}
+
+#alsl-3{
+    color: rgb(216, 216, 62);
+    font-weight: bold;     
+}
+
+#alsl-4{
+    color: rgb(86, 190, 204);
+    font-weight: bold;     
+}
+
+/*----- SELECTORES PERSONALIZADOS - MAIN - PORTFOLIO -----*/
+
+.section-container-portfolio{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-container-portfolio header{
+    color: #aee656;
+    padding: 10px;
+}
+
+.article-para-portfolio{    
+    padding: 10px;
+}
+
+.article-image-portfolio{    
+    padding: 20px;
+}
+
+.article-image-portfolio img{
+    height: 250px;
+    width: 500px;
+}
+
+.article-link-portfolio-link{
+    margin-left: 50px;
+    list-style: circle;
+}
+
+.article-link-portfolio-link li{
+    margin-top: 20px;
+}
+
+#alpl-1{
+    color: rgb(216, 216, 62);
+    font-weight: bold;
+}
+
+#alpl-2{
+    color: rgb(161, 25, 25);
+    font-weight: bold;
+}
+
+#alpl-3{
+    color: rgb(49, 55, 110);
+    font-weight: bold;
+}
+
+#alpl-4{
+    color: rgb(146, 146, 5);
+    font-weight: bold;
+}
+
+/*----- SELECTORES PERSONALIZADOS - MAIN - CONTACT -----*/
+
+.section-container-contact{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-container-contact header{
+    color: rgb(86, 190, 204);
+    padding: 10px;
+}
+
+.article-para-contact{    
+    padding: 10px;
+}
+ 
+.article-form-contact{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.article-form-contact fieldset {
+    margin-top: 20px;
+}
+
+.form-name {
+    border: none;
+    width: 90%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-detail {
+    border: none;
+    width: 90%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-send{
+    background-color: transparent;
+    color: rgb(110, 212, 110);
+    width: 200px;
+    height: 75px;
+    border-color:rgb(110, 212, 110);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*----- SELECTORES PERSONALIZADOS - FOOTER -----*/
+
+.footer-container{    
+    padding: 20px;
+    background-color:rgb(82, 207, 82);
+}
+
+.footer-container ul{
+    padding: 10px;
+    list-style: none; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-container ul li{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
